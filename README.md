@@ -28,9 +28,11 @@ Currently, it's very basic and therefore not flexible.
 这种	187
 ```
 
-Currently, if you don't want to see these words, or you want
-to see than ten, just edit the code. See [Current issues and
-goals](#current-issues-and-goals) for corresponding issues.
+Currently, if you don't want to see these words, or you want to see more
+than ten, just edit the code. In the future, there will be a default stop
+list and you'll be able to specify your own additional stop lists. See
+[Current issues and goals](#current-issues-and-goals) for corresponding
+issues.
 
 ## Current issues and goals
 
