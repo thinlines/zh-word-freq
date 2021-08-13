@@ -13,11 +13,12 @@ def count_words(words, stoplist):
 	return c
 
 def get_words(s):
-	seg_list = '~~'.join(jieba.cut(s, cut_all=True))
+	seg_list = '~~'.join(jieba.cut(s, cut_all=args.all))
 	return seg_list.split('~~')
 
 parser = argparse.ArgumentParser()
 parser.add_argument("file", help="the text file to process")
+parser.add_argument("-a", "--all", help="find all possible words", action="store_true")
 args = parser.parse_args()
 
 def main():

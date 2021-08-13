@@ -5,19 +5,24 @@ display the most frequent ones.
 
 Currently, it's very basic and therefore not flexible.
 
+## Requirements
+
+Do `pip install jieba`.
+
 ## Usage
 
 ```bash
-usage: seg.py [-h] file
+usage: seg.py [-h] [-a] file
 
 positional arguments:
   file        the text file to process
 
 optional arguments:
   -h, --help  show this help message and exit
+  -a, --all   find all possible words
 ```
 
-## Output 
+## Output
 
 (from *1984* by George Orwell)
 
